@@ -6,4 +6,18 @@
       <class name="firsttestngpackage.FirstTestNGFile"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="firsttestngpackage.FirstTestNGFile">
+        <methods>
+          <include name="verifyHomepageTitle"/>
+          <include name="skip"/>
+          <include name="fail"/>
+          <include name="killBrowser"/>
+          <include name="backtoHomepage"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- firsttestngpackage.FirstTestNGFile -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
